@@ -33,3 +33,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
+
+# https://github.com/benbalter/jekyll-remote-theme#usage
+gem "jekyll-remote-theme"
+
+gem "jekyll-include-cache"
+gem "jekyll-include-cache", group: :jekyll_plugins
