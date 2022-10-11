@@ -3,6 +3,18 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Home
+exclude: true
 ---
 
-Hi
+This is a brand new site!
+
+in the front matter, this page is excluded:
+
+```yaml
+---
+exclude: true
+---
+```
+
+because this theme will automatically put the `Home` page in the nav bar anyways.
