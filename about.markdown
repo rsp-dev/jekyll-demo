@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This blog is using a modified Jekyll theme.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The theme is forked from [hyde][hyde] theme from [mdo][mdo] (which can be found on GitHub [here][hyde-gh]).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The fork of the theme is [here][hyde-fork], which
+includes fixes such as allowing custom styles in the `<head>` 
+and using the right [folder][hyde-fork-pr-1] for assets (courtesy of [glebius][hyde-fork-pr-1-original]).
 
-
-[jekyll-organization]: https://github.com/jekyll
+[mdo]: https://github.com/mdo
+[hyde]: https://jekyllthemes.io/theme/hyde
+[hyde-gh]: https://github.com/poole/hyde
+[hyde-fork]: https://github.com/alexp1917/hyde
+[hyde-fork-pr-1]: https://github.com/alexp1917/hyde/pull/1
+[hyde-fork-pr-1-original]: https://github.com/poole/hyde/pull/212
